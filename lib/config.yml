@@ -1,27 +1,30 @@
 api_key: r87g5jtc6mpdwur3ufqc6vnd
 users:
-    - thedyers
-    - timothywelch
-    - lincolnanthony
-    - labethmann
-    - samseidman
-    - ejones1577
-    - lonerockgod
-    - abrader23
-    - kbmartin15
-    - vox_serg
-    - nwgsweet
-    - SiliRecio
-    - tpgoebel
     - hybriddba
-    - robpattondotcom
-    - jasonsajovic
-    - vkraft
+    - nwgsweet
+    - timothywelch
     - clivecarler
-    - imakebacon
-    - tomayto
+    - kbmartin15
+    - ejones1577
+    - labethmann
+    - tpgoebel
+    - SiliRecio
+    - jasonsajovic
+    - robpattondotcom
+    - abrader23
+    - lincolnanthony
+    - samseidman
     - voxeoamy
+    - tomayto
+    - lonerockgod
     - devzebra
+    - vkraft
+    - vox_serg
+    - imakebacon
+         
+# Whats the limit of users you want to display, top 10, top 20?
+account_limit: 10
+
 twitter:
     consumer_key: ""
     consumer_secret: ""
