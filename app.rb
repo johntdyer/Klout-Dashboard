@@ -22,5 +22,5 @@
     end
     
     #Get Top 10 users by sorting ont he kscore index
-    @results.sort_by {|user| user["kscore"]}.reverse.slice(1,@@config[' '].to_i).to_json
+    @results.sort_by {|user| user["kscore"]}.reverse.slice(1,@@config['account_limit'].to_i).to_json
 end
