@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en-US">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Voxeo Klout</title>
+
+      <link href="images/favicon.ico" rel="shortcut icon" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" id="stylesheet" />
+      <link rel="stylesheet" href="css/jquery-ui-1.8.10.custom.css" type="text/css"/>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+      <script src="js/klout.js"></script>
+      <script type="text/javascript">
+      $().ready(function(){
+        console.log("jQuery Ready");
+          //$('#tabs').tabs();
+          load_klout_scores();
+          setInterval( "load_klout_scores()", 600000 ); // Update page every 60 minute
+      });
+      </script>
+      </head>
+        <body>
+          <!--<div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Klout</a></li>
+              <li><a href="#tabs-2">Voxeons</a></li>
+            </ul> -->
+
+            <div id="tabs-1">
+              <div id="bird_div">
+                <img src="images/twitter_bird.png"/>
+              </div>
+              <div id="page_body"></div>
+            </div>
+
+            <!--<div id="tabs-2">
+                  <div id="tweets"></div> 
+                </div>
+                </div> -->
+        </body>
+    </html>

@@ -1,0 +1,90 @@
+@font-face {
+font-family: GraublauWeb;
+src: url("../fonts/GraublauWeb.otf") format("opentype");
+}
+
+@font-face {
+font-family: GraublauWeb;
+font-weight: bold;
+src: url("../fonts/GraublauWebBold.otf") format("opentype");
+}
+
+@font-face {
+font-family: Chunk;
+src: url("../fonts/Chunk.otf") format("opentype");
+}
+
+
+
+a {
+    color:#CC0000;
+    text-decoration:none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.user_block {
+    font-family:Chunk, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+body, #entry {
+  background: #22252a;
+  color: #eee;
+}
+body, table {
+
+  font-size: 14pt;
+  line-height: 100%;
+  padding: 20px 40px 40px 40px;
+}
+
+a { text-decoration: none; color: #888; }
+a:hover { text-decoration: underline; color: #aaa; }
+
+.rot-90-deg {
+  /* rotate -90 deg, not sure if a negative number is supported so I used 270 */
+  -moz-transform: rotate(270deg);
+  -moz-transform-origin: 50% 50%;
+  -webkit-transform: rotate(270deg);
+  -webkit-transform-origin: 50% 50%;
+  font-size: 61pt;
+
+  position:fixed;
+  top: 380px;
+  right:-100px;
+
+  /* IE support too convoluted for the time I've got on my hands... */
+  
+}
+
+
+h1 {  
+    font-family:Baskerville,Times,'Times New Roman',serif;
+    font-size:75px; 
+    color:#589017;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight:bold;
+    padding:15px 0px 15px 0px; /* Tweak this to your liking */
+}
+ 
+h2 {
+    font-family:georgia,serif;font-size:18px;
+    font-style:italic;
+    color:#3E2F2F;
+    letter-spacing:0;
+    line-height:1.429em;
+    padding:0;
+    text-align:center;
+}
+ 
+h2 span {
+    font-family:baskerville,'palatino linotype',georgia,serif;
+        font-size:25px;
+    font-weight:100;
+}
