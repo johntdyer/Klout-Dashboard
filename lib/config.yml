@@ -21,6 +21,8 @@ users:
     - vkraft
     - vox_serg
     - imakebacon
+    - timothywelch
+    - polfer
 # Whats the limit of users you want to display, top 10, top 20?
 account_limit: 10
 twitter:

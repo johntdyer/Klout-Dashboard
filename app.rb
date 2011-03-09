@@ -21,6 +21,13 @@
       score(batch)
     end
     
+    @sorted =Array.new
     #Get Top 10 users by sorting ont he kscore index
-    @results.sort_by {|user| user["kscore"]}.reverse.slice(1,@@config['account_limit'].to_i).to_json
+        
+    @results.sort_by{ |user| user["kscore"] }.each do |tweeter|
+      @sorted<<tweeter
+    end
+    
+    # Trim top n (determined by 'account_limit' in config.yml)
+    @sorted.reverse.slice(1,@@config['account_limit'].to_i).to_json
 end

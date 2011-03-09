@@ -13,29 +13,20 @@
       <script type="text/javascript">
       $().ready(function(){
         console.log("jQuery Ready");
-          //$('#tabs').tabs();
-          load_klout_scores();
-          setInterval( "load_klout_scores()", 600000 ); // Update page every 60 minute
+        console.log(load_klout_scores());
+//          $('#page_body').append(load_klout_scores());
+  //        setInterval( "$('#page_body').append(load_klout_scores());", 600000 ); // Update page every 60 minute
+//          $("#page_body").sort("userName", "asc");
+          
       });
       </script>
       </head>
         <body>
-          <!--<div id="tabs">
-            <ul>
-              <li><a href="#tabs-1">Klout</a></li>
-              <li><a href="#tabs-2">Voxeons</a></li>
-            </ul> -->
-
             <div id="tabs-1">
               <div id="bird_div">
                 <img src="images/twitter_bird.png"/>
               </div>
               <div id="page_body"></div>
             </div>
-
-            <!--<div id="tabs-2">
-                  <div id="tweets"></div> 
-                </div>
-                </div> -->
         </body>
     </html>
